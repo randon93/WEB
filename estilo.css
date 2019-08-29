@@ -1,0 +1,24 @@
+body{
+  background-image: linear-gradient(rgba(84,93,220,.9), rgba(96,171,245,.9)), url(https://wallpapercave.com/wp/wp3703407.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.contenedor {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+.marg {
+  margin: 30px;
+}
+footer{
+  color:  gold;
+  text-align: center;
+  border-style: double;
+}
+
+footer p {
+  margin: 20px;
+}
