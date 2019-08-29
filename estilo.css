@@ -1,8 +1,4 @@
-body{
-  background-image: linear-gradient(rgba(84,93,220,.9), rgba(96,171,245,.9)), url(https://wallpapercave.com/wp/wp3703407.jpg);
-  height: 100vh;
-  background-size: cover;
-}
+
 
 .contenedor {
   max-width: 1280px;
@@ -13,7 +9,64 @@ body{
 .marg {
   margin: 30px;
 }
+nav ul{
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a{
+  font-family: Arial;
+  font-size: 11px;
+  text-decoration: none;
+  float: left;
+  padding: 10px;
+  background-color: #2175bc;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: #2586d7;
+  margin-top: -2px;
+  padding-bottom: 12px;
+}
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+/* article li {
+  color: #00F;
+} */
+
+article li strong{
+  color: #000;
+}
+
+aside {
+  float: left;
+  width: 30%;
+  clear: both;
+}
+
+section {
+  float: left;
+  width: 70%;
+}
 footer{
+  clear: both;
+  text-align: center;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+
+/* footer{
   color:  gold;
   text-align: center;
   border-style: double;
@@ -21,4 +74,39 @@ footer{
 
 footer p {
   margin: 20px;
+} */
+#academica {
+  float: left;
+  width: 50%;
+}
+
+#laboral {
+  float: left;
+  width: 50%;
+}
+@media (min-width: 601px) and (max-width: 1000px) {
+
+body{
+  font-family: Arial, sans-serif;
+}
+
+aside{
+  float: left;
+  widht: 40%;
+  clear: both;
+}
+
+section {
+  float: left;
+  width: 60%;
+}
+
+#formacion{
+  width: 100%;
+}
+
+#experiencia {
+  width: 100%;
+}
+
 }
